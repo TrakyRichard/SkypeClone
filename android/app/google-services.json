@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "357765442403",
+    "firebase_url": "https://trackouss.firebaseio.com",
+    "project_id": "trackouss",
+    "storage_bucket": "trackouss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357765442403:android:e160a5f060f23acb494156",
+        "android_client_info": {
+          "package_name": "com.africaycone.skype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357765442403-anchkfbneicm2hblg0i6s5blrqkag96n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.africaycone.skype",
+            "certificate_hash": "b3aab9a3efcd3aed6c5d9e1ac90cf90a7acf094d"
+          }
+        },
+        {
+          "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfMbRlWWMWUECBxgdP2eZ-BSmTL6a_yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357765442403-egbbbu3m7a5b8o13omn4ef7j2ssa6i52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instaClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357765442403:android:221925d07504fbc9494156",
+        "android_client_info": {
+          "package_name": "com.example.insta_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357765442403-o60bnrjl9rm7bqt6o243lb6klb1t9i7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.insta_clone",
+            "certificate_hash": "b3aab9a3efcd3aed6c5d9e1ac90cf90a7acf094d"
+          }
+        },
+        {
+          "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfMbRlWWMWUECBxgdP2eZ-BSmTL6a_yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357765442403-egbbbu3m7a5b8o13omn4ef7j2ssa6i52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instaClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357765442403:android:9e2064051c520690494156",
+        "android_client_info": {
+          "package_name": "com.trakouss.ecommapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357765442403-bqqkhess7oums51b1c35a6qpij7vgpov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trakouss.ecommapp",
+            "certificate_hash": "0e2051174c8018c2e07d2be1d12e178ab327d960"
+          }
+        },
+        {
+          "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfMbRlWWMWUECBxgdP2eZ-BSmTL6a_yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357765442403-a58u0jua1mihi10fll1377a06cdn2hh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357765442403-egbbbu3m7a5b8o13omn4ef7j2ssa6i52.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instaClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
