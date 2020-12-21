@@ -308,38 +308,40 @@ class _ChatScreenState extends State<ChatScreen> {
                 ),
               ),
               Flexible(
+                  fit: FlexFit.tight,
+                  flex: 1,
                   child: ListView(
-                children: [
-                  ModalTile(
-                      title: "Media",
-                      subtitle: "Share photo and Video",
-                      iconData: Icons.image,
-                      onTap: () {
-                        pickImage(source: ImageSource.gallery);
-                        Navigator.pop(context);
-                      }),
-                  ModalTile(
-                    title: "Contact",
-                    subtitle: "Share contact",
-                    iconData: Icons.contacts,
-                  ),
-                  ModalTile(
-                    title: "Location",
-                    subtitle: "Share a location",
-                    iconData: Icons.add_location,
-                  ),
-                  ModalTile(
-                    title: "Schedule Call",
-                    subtitle: "Arrange a skype call and get reminders",
-                    iconData: Icons.schedule,
-                  ),
-                  ModalTile(
-                    title: "Create Poll",
-                    subtitle: "Share photo and Video",
-                    iconData: Icons.poll,
-                  ),
-                ],
-              ))
+                    children: [
+                      ModalTile(
+                          title: "Media",
+                          subtitle: "Share photo and Video",
+                          iconData: Icons.image,
+                          onTap: () {
+                            pickImage(source: ImageSource.gallery);
+                            Navigator.pop(context);
+                          }),
+                      ModalTile(
+                        title: "Contact",
+                        subtitle: "Share contact",
+                        iconData: Icons.contacts,
+                      ),
+                      ModalTile(
+                        title: "Location",
+                        subtitle: "Share a location",
+                        iconData: Icons.add_location,
+                      ),
+                      ModalTile(
+                        title: "Schedule Call",
+                        subtitle: "Arrange a skype call and get reminders",
+                        iconData: Icons.schedule,
+                      ),
+                      ModalTile(
+                        title: "Create Poll",
+                        subtitle: "Share photo and Video",
+                        iconData: Icons.poll,
+                      ),
+                    ],
+                  ))
             ],
           );
         },
