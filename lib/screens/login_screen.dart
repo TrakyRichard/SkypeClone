@@ -62,12 +62,11 @@ class _LoginScreenState extends State<LoginScreen> {
         setState(() {
           isLoginPressed = false;
         });
-        _firebaseRepository.addDataToDb(user).then((_) {
-          return Navigator.pushReplacement(context,
-              MaterialPageRoute(builder: (context) {
-            return HomeScreen();
-          }));
-        });
+        _firebaseRepository.addDataToDb(user).then((_) =>
+            Navigator.pushReplacement(context,
+                MaterialPageRoute(builder: (context) {
+              return HomeScreen();
+            })));
       } else {
         setState(() {
           isLoginPressed = false;

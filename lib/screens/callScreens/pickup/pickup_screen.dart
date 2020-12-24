@@ -5,10 +5,18 @@ import 'package:skype/screens/callScreens/call_screen.dart';
 import 'package:skype/screens/chatScreens/widgets/cached_image.dart';
 import 'package:skype/utils/permission.dart';
 
-class PickUpScreen extends StatelessWidget {
+class PickUpScreen extends StatefulWidget {
   final CallModel callModel;
-  final CallMethods callMethods = CallMethods();
+
   PickUpScreen({@required this.callModel});
+
+  @override
+  _PickUpScreenState createState() => _PickUpScreenState();
+}
+
+class _PickUpScreenState extends State<PickUpScreen> {
+  final CallMethods callMethods = CallMethods();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +40,7 @@ class PickUpScreen extends StatelessWidget {
                 height: 10,
               ),
               CachedImage(
-                callModel.callerPic,
+                widget.callModel.callerPic,
                 isRound: true,
                 radius: 180,
               ),
@@ -40,7 +48,7 @@ class PickUpScreen extends StatelessWidget {
                 height: 15,
               ),
               Text(
-                callModel.callerName,
+                widget.callModel.callerName,
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
               SizedBox(height: 55),
@@ -54,7 +62,7 @@ class PickUpScreen extends StatelessWidget {
                         size: 40,
                       ),
                       onPressed: () async {
-                        await callMethods.endCall(call: callModel);
+                        await callMethods.endCall(call: widget.callModel);
                       }),
                   SizedBox(
                     width: 30,
@@ -71,7 +79,7 @@ class PickUpScreen extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => CallScreen(
-                                  call: callModel,
+                                  call: widget.callModel,
                                 ),
                               ))
                           : {})
